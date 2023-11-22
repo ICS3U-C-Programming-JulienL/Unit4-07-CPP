@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Julien Lamoureux All rights reserved.
 
 // Created By: Julien Lamoureux
-// Date: November 13, 2023
+// Date: November 21, 2023
 // Displaying numbers between 1000 and 2000,
 // but a newline is made if the number % 5 == 0
 
@@ -15,7 +15,7 @@ int main() {
 
     // tells the user what the program does
     std::cout << "This program displays all numbers between 1000 and 2000";
-    std::cout << ", but a newline is made for evert multiple of 5.";
+    std::cout << ", but a newline is made for every multiple of 5.";
 
     // use a for loop for all numbers between 1000 and 2000
     for (counter = 1000; counter <= 2000; counter++) {
@@ -23,7 +23,7 @@ int main() {
         if (counter == 0) {
             std::cout << counter << " ";
         } else if (counter % 5 == 0) {
-            // otherwise, if it's a multiple five, make a newline
+            // otherwise, if it's a multiple of five, make a newline
             std::cout << "\n" << counter << " ";
         } else {
             // otherwise, then print on the same line
